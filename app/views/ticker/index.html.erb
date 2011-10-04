@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {'packages':['annotatedtimeline']});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('date', 'Date');
+        data.addColumn('number', 'Sold Pencils');
+		<% i = 0 %>
+        data.addRows([
+		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+		  	<% if (i>0) %> ,<% end %>
+		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>]
+			<% i = i+1 %>
+		  <% end %>
+        ]);
+
+        var chart = new google.visualization.AnnotatedTimeLine(document.getElementById('chart_div'));
+        chart.draw(data, {displayAnnotations: true});
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Bitcoin Chart</h1>
+    <div id='chart_div' style='width: 90%; height: 300px;'></div>
+  </body>
+</html>

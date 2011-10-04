@@ -1,0 +1,1293 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/ticker" for 127.0.0.1 at Thu Aug 04 20:53:32 +0530 2011
+
+ActionController::RoutingError (No route matches "/ticker"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/ticker/index" for 127.0.0.1 at Thu Aug 04 20:53:38 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ticker/index" for 127.0.0.1 at Thu Aug 04 20:54:15 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ticker" for 127.0.0.1 at Thu Aug 04 20:54:26 +0530 2011
+
+ActionController::RoutingError (No route matches "/ticker"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 20:59:28 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 20:59:30 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:02:16 +0530 2011
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:02:18 +0530 2011
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:02:42 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:02:43 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:02:46 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:47:41 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:47:41 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:47:41 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:47:41 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:16 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:16 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (54.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:17 +0530 2011
+
+Mysql::Error (Access denied for user 'rails'@'localhost' to database 'bitcoin'):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:31 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:31 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:31 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Aug 04 21:48:31 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (67.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (135.0ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+  [1m[35mSQL (64.1ms)[0m  CREATE TABLE `tickers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `high` decimal(18,9) DEFAULT 0, `low` decimal(18,9) DEFAULT 0, `avg` decimal(18,9) DEFAULT 0, `vwap` decimal(18,9) DEFAULT 0, `vol` int(11), `last` decimal(18,9) DEFAULT 0, `buy` decimal(18,9) DEFAULT 0, `sell` decimal(18,9) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (31.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110804153855')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vwap`, `high`, `avg`, `updated_at`, `created_at`, `sell`, `load_time`, `last`, `low`, `buy`, `vol`) VALUES (0.0, 11.39, 0.0, '2011-08-04 16:24:53', '2011-08-04 16:24:53', 10.58999, 1312475085, 10.58999, 8.7, 10.541, 102251)
+  [1m[36mSQL (46.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `last`, `sell`, `load_time`, `buy`, `updated_at`, `created_at`, `avg`, `vwap`, `high`, `vol`) VALUES (8.7, 10.54099, 10.54099, 1312475335, 10.48011, '2011-08-04 16:28:56', '2011-08-04 16:28:56', 0.0, 0.0, 11.39, 101788)
+  [1m[36mSQL (27.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`sell`, `load_time`, `vol`, `last`, `updated_at`, `low`, `high`, `avg`, `vwap`, `buy`, `created_at`) VALUES (10.8, 1312554874, 23981, 10.78999, '2011-08-05 14:34:40', 10.4202, 11.04, 0.0, 0.0, 10.78877, '2011-08-05 14:34:40')
+  [1m[36mSQL (40.4ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vwap`, `load_time`, `low`, `buy`, `updated_at`, `vol`, `avg`, `high`, `sell`, `last`, `created_at`) VALUES (0.0, 1312554897, 10.4202, 10.78877, '2011-08-05 14:35:03', 23981, 0.0, 11.04, 10.8, 10.78999, '2011-08-05 14:35:03')
+  [1m[36mSQL (47.8ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 20:23:59 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 20:24:56 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (62.4ms)
+Completed 200 OK in 1380ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 20:26:15 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 60596ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:12:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 20:30:03 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 60373ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:12:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:01:15 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5950ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:01:46 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 60865ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:8:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:13:57 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 60642ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:8:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:15:49 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant TickerController::Mechanize):
+  app/controllers/ticker_controller.rb:29:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (57.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:39:39 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 1489ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/ticker_controller.rb:30:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:41:05 +0530 2011
+
+LoadError (no such file to load -- json):
+  app/controllers/ticker_controller.rb:5
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:42:33 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 1749ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/ticker_controller.rb:34:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:43:37 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 4550ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/ticker_controller.rb:33:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:44:40 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 60371ms
+
+Timeout::Error (Resource temporarily unavailable):
+  app/controllers/ticker_controller.rb:50:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:46:32 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 9034ms
+
+Mechanize::ResponseCodeError (404 => Net::HTTPNotFound):
+  app/controllers/ticker_controller.rb:65:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:50:19 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 4094ms
+
+Mechanize::ResponseCodeError (404 => Net::HTTPNotFound):
+  app/controllers/ticker_controller.rb:56:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:51:49 +0530 2011
+  Processing by TickerController#index as HTML
+Completed   in 57964ms
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 21:53:00 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 62314ms
+
+Timeout::Error (Resource temporarily unavailable):
+  app/controllers/ticker_controller.rb:47:in `index'
+  app/controllers/ticker_controller.rb:46:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (64.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (68.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 22:01:28 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 1951ms
+
+ArgumentError (invalid access mode wb (URI::HTTP resource is read only.)):
+  app/controllers/ticker_controller.rb:45:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 22:02:24 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 62644ms
+
+Timeout::Error (Resource temporarily unavailable):
+  app/controllers/ticker_controller.rb:46:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 22:03:26 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 63366ms
+
+Timeout::Error (Resource temporarily unavailable):
+  app/controllers/ticker_controller.rb:46:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Aug 05 22:05:44 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 64136ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:46:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 11:05:16 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 64078ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:46:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (54.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 12:35:21 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - https://api.tradehill.com/APIv1/USD/Trades):
+  app/controllers/ticker_controller.rb:51:in `initialize'
+  app/controllers/ticker_controller.rb:51:in `open'
+  app/controllers/ticker_controller.rb:51:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 12:35:30 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - https://api.tradehill.com/APIv1/USD/Trades):
+  app/controllers/ticker_controller.rb:51:in `initialize'
+  app/controllers/ticker_controller.rb:51:in `open'
+  app/controllers/ticker_controller.rb:51:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (65.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.1ms)
+
+
+Started GET "/%5D" for 127.0.0.1 at Sat Aug 06 12:35:57 +0530 2011
+
+ActionController::RoutingError (No route matches "/%5D"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 12:36:04 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://mtgox.com/api/0/data/ticker.php):
+  app/controllers/ticker_controller.rb:51:in `initialize'
+  app/controllers/ticker_controller.rb:51:in `open'
+  app/controllers/ticker_controller.rb:51:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 12:43:23 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 44809ms
+
+Mechanize::ResponseCodeError (404 => Net::HTTPNotFound):
+  app/controllers/ticker_controller.rb:61:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 12:55:10 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 43922ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 12:57:49 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 62928ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:46:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 13:03:21 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 61048ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:30:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+  [1m[36mSQL (29.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (88.5ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (150.5ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+  [1m[35mSQL (68.8ms)[0m  CREATE TABLE `tickers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `high` decimal(18,9) DEFAULT 0, `low` decimal(18,9) DEFAULT 0, `avg` decimal(18,9) DEFAULT 0, `vwap` decimal(18,9) DEFAULT 0, `vol` int(11), `last` decimal(18,9) DEFAULT 0, `buy` decimal(18,9) DEFAULT 0, `sell` decimal(18,9) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (44.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110804153855')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (8.7ms)[0m  INSERT INTO `tickers` (`avg`, `buy`, `last`, `high`, `updated_at`, `created_at`, `low`, `vol`, `vwap`, `load_time`, `sell`) VALUES (10.139932322, 9.82006, 9.82005, 0.0, '2011-08-06 08:08:28', '2011-08-06 08:08:28', 9.5, 30170, 10.088887872, NULL, 9.82014)
+  [1m[36mSQL (24.2ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (79.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (175.5ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+  [1m[35mSQL (57.5ms)[0m  CREATE TABLE `tickers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `exchangetype` varchar(255), `high` decimal(18,9) DEFAULT 0, `low` decimal(18,9) DEFAULT 0, `avg` decimal(18,9) DEFAULT 0, `vwap` decimal(18,9) DEFAULT 0, `vol` int(11), `last` decimal(18,9) DEFAULT 0, `buy` decimal(18,9) DEFAULT 0, `sell` decimal(18,9) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (23.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110804153855')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`last`, `updated_at`, `exchangetype`, `avg`, `vwap`, `buy`, `low`, `load_time`, `sell`, `vol`, `high`, `created_at`) VALUES (9.83951, '2011-08-06 08:23:15', 'MtGox', 10.134260729, 10.082469221, 9.82026, 9.5, 1312618988, 9.83, 30022, 10.99, '2011-08-06 08:23:15')
+  [1m[36mSQL (53.6ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`buy`, `vol`, `low`, `avg`, `last`, `high`, `sell`, `exchangetype`, `created_at`, `vwap`, `load_time`, `updated_at`) VALUES (9.67828, 30345, 9.5, 10.117047898, 9.7892, 10.958, 9.7892, 'MtGox', '2011-08-06 08:41:13', 10.06769363, 1312620070, '2011-08-06 08:41:13')
+  [1m[36mSQL (36.8ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`avg`, `sell`, `last`, `vwap`, `created_at`, `exchangetype`, `vol`, `updated_at`, `buy`, `high`, `low`, `load_time`) VALUES (10.106448672, 9.69971, 9.69971, 10.063708062, '2011-08-06 08:58:53', 'MtGox', 30419, '2011-08-06 08:58:53', 9.69962, 10.958, 9.5, 1312621131)
+  [1m[36mSQL (26.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `vol`, `avg`, `created_at`, `exchangetype`, `vwap`, `last`, `sell`, `load_time`, `buy`, `updated_at`, `high`) VALUES (9.5, 30431, 10.106009529, '2011-08-06 08:59:28', 'MtGox', 10.063561356, 9.69962, 9.69961, 1312621166, 9.67827, '2011-08-06 08:59:28', 10.958)
+  [1m[36mSQL (32.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `load_time`, `vol`, `avg`, `high`, `last`, `updated_at`, `sell`, `created_at`, `exchangetype`, `vwap`, `buy`) VALUES (9.5, 1312621402, 30442, 10.103806544, 10.958, 9.63, '2011-08-06 09:03:24', 9.63, '2011-08-06 09:03:24', 'MtGox', 10.062851639, 9.62303)
+  [1m[36mSQL (41.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`created_at`, `exchangetype`, `vol`, `low`, `updated_at`, `vwap`, `load_time`, `avg`, `sell`, `high`, `buy`, `last`) VALUES ('2011-08-06 09:03:46', 'MtGox', 30443, 9.5, '2011-08-06 09:03:46', 10.062823781, 1312621424, 10.103217036, 9.63, 10.958, 9.62315, 9.63)
+  [1m[36mSQL (23.3ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vwap`, `updated_at`, `high`, `load_time`, `created_at`, `exchangetype`, `low`, `last`, `vol`, `buy`, `avg`, `sell`) VALUES (10.062657114, '2011-08-06 09:04:30', 10.958, 1312621465, '2011-08-06 09:04:30', 'MtGox', 9.5, 9.62325, 30455, 9.62303, 10.103008917, 9.62314)
+  [1m[36mSQL (32.2ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`exchangetype`, `low`, `vwap`, `sell`, `buy`, `high`, `vol`, `updated_at`, `avg`, `load_time`, `last`, `created_at`) VALUES ('MtGox', 9.5, 10.062646743, 9.62314, 9.62313, 10.958, 30456, '2011-08-06 09:05:14', 10.102904165, 1312621511, 9.62314, '2011-08-06 09:05:14')
+  [1m[36mSQL (33.9ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `last`, `vwap`, `vol`, `load_time`, `buy`, `updated_at`, `sell`, `high`, `exchangetype`, `avg`, `created_at`) VALUES (9.5, 9.60991, 10.061504622, 30535, 1312621558, 9.59533, '2011-08-06 09:06:00', 9.6, 10.958, 'MtGox', 10.102169316, '2011-08-06 09:06:00')
+  [1m[36mSQL (44.8ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`buy`, `last`, `low`, `load_time`, `updated_at`, `avg`, `vol`, `exchangetype`, `vwap`, `sell`, `high`, `created_at`) VALUES (9.56, 9.58, 9.5, 1312621670, '2011-08-06 09:07:52', 10.100546657, 30580, 'MtGox', 10.06074316, 9.58, 10.958, '2011-08-06 09:07:52')
+  [1m[36mSQL (23.9ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`sell`, `low`, `vwap`, `updated_at`, `exchangetype`, `high`, `vol`, `avg`, `load_time`, `buy`, `last`, `created_at`) VALUES (9.56009, 9.5, 10.056590114, '2011-08-06 09:09:17', 'MtGox', 10.958, 30806, 10.096329174, 1312621754, 9.51513, 9.5602, '2011-08-06 09:09:17')
+  [1m[36mSQL (28.2ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`updated_at`, `created_at`, `exchangetype`, `vol`, `avg`, `load_time`, `vwap`, `high`, `sell`, `last`, `low`, `buy`) VALUES ('2011-08-06 11:10:19', '2011-08-06 11:10:19', 'MtGox', 38311, 9.985234764, 1312629017, 9.902488257, 10.90118, 9.50009, 9.26627, 9.11, 9.38677)
+  [1m[36mSQL (27.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`updated_at`, `created_at`, `exchangetype`, `vol`, `avg`, `load_time`, `vwap`, `high`, `sell`, `last`, `low`, `buy`) VALUES ('2011-08-06 11:10:21', '2011-08-06 11:10:21', 'thUSD', 17025, 9.674563035, 1312629017, 0.0, 11.0, 9.70912607, 9.708, 9.63, 9.64)[0m
+  [1m[35mSQL (24.2ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:41:58 +0530 2011
+
+LoadError (no such file to load -- json):
+  app/controllers/ticker_controller.rb:4
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:42:21 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:43:05 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:43:30 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:43:47 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:44:12 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:52:04 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:53:47 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 17:58:01 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 18:03:41 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 20:07:33 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`high`, `low`, `updated_at`, `sell`, `vol`, `vwap`, `load_time`, `created_at`, `exchangetype`, `buy`, `avg`, `last`) VALUES (10.79989, 7.69981, '2011-08-06 15:03:54', 8.0, 63561, 9.325751791, 1312642993, '2011-08-06 15:03:54', 'MtGox', 7.9785, 9.538130055, 8.0)
+  [1m[36mSQL (32.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`high`, `low`, `updated_at`, `sell`, `vol`, `vwap`, `load_time`, `created_at`, `exchangetype`, `buy`, `avg`, `last`) VALUES (11.0, 8.25, '2011-08-06 15:03:56', 8.729, 23456, 0.0, 1312642993, '2011-08-06 15:03:56', 'thUSD', 8.6, 8.6645, 8.6)[0m
+  [1m[35mSQL (27.3ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vol`, `vwap`, `load_time`, `exchangetype`, `avg`, `updated_at`, `sell`, `last`, `buy`, `low`, `high`, `created_at`) VALUES (63872, 9.31901297, 1312643112, 'MtGox', 9.532645081, '2011-08-06 15:05:13', 7.9785, 7.90001, 7.90001, 7.69981, 10.79989, '2011-08-06 15:05:13')
+  [1m[36mSQL (30.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`vol`, `vwap`, `load_time`, `exchangetype`, `avg`, `updated_at`, `sell`, `last`, `buy`, `low`, `high`, `created_at`) VALUES (23513, 0.0, 1312643112, 'thUSD', 8.5963125, '2011-08-06 15:05:15', 8.6, 8.6, 8.592625, 8.25, 11.0, '2011-08-06 15:05:15')[0m
+  [1m[35mSQL (22.2ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`sell`, `vwap`, `created_at`, `vol`, `buy`, `low`, `updated_at`, `last`, `load_time`, `high`, `exchangetype`, `avg`) VALUES (7.93951, 9.318324831, '2011-08-06 15:05:53', 63903, 7.91, 7.69981, '2011-08-06 15:05:53', 7.93951, 1312643152, 10.79989, 'MtGox', 9.530230059)
+  [1m[36mSQL (23.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vol`, `created_at`, `low`, `sell`, `updated_at`, `high`, `buy`, `vwap`, `last`, `exchangetype`, `avg`, `load_time`) VALUES (64142, '2011-08-06 15:09:47', 7.69981, 7.9785, '2011-08-06 15:09:47', 10.79989, 7.92, 9.313115694, 7.91999, 'MtGox', 9.521052432, 1312643358)
+  [1m[36mSQL (24.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 20:50:18 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 20:50:59 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (68.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (133.8ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+  [1m[35mSQL (57.3ms)[0m  CREATE TABLE `tickers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `exchangetype` varchar(255), `high` decimal(18,9) DEFAULT 0, `low` decimal(18,9) DEFAULT 0, `avg` decimal(18,9) DEFAULT 0, `vwap` decimal(18,9) DEFAULT 0, `vol` decimal(18,9) DEFAULT 0, `last` decimal(18,9) DEFAULT 0, `buy` decimal(18,9) DEFAULT 0, `sell` decimal(18,9) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (32.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110804153855')[0m
+Migrating to CreateBitcoinIndices (20110806152718)
+  [1m[35mSQL (65.3ms)[0m  CREATE TABLE `bitcoin_indices` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `date` date, `index` decimal(18,9) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (32.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110806152718')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `bitcoin_indices`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `bitcoin_indices`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `vwap`, `last`, `exchangetype`, `load_time`, `created_at`, `sell`, `updated_at`, `high`, `vol`, `buy`, `avg`) VALUES (7.69981, 9.284686986, 8.21022, 'MtGox', 1312645466, '2011-08-06 15:44:28', 8.26525, '2011-08-06 15:44:28', 10.79505, 64965.0, 8.21023, 9.461919769)
+  [1m[36mSQL (35.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `tickers` (`low`, `vwap`, `last`, `exchangetype`, `load_time`, `created_at`, `sell`, `updated_at`, `high`, `vol`, `buy`, `avg`) VALUES (8.25, 0.0, 8.27, 'thUSD', 1312645466, '2011-08-06 15:44:30', 8.35983, '2011-08-06 15:44:30', 11.0, 24501.0646894322, 8.2662934672, 8.3130617336)[0m
+  [1m[35mSQL (26.7ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `bitcoin_indices` (`index`, `date`, `created_at`, `load_time`, `updated_at`) VALUES (9.147294942905080898559900935486227115855598272614518959894921067925071559, '2011-08-06 15:44:26', '2011-08-06 15:44:30', 1312645466, '2011-08-06 15:44:30')[0m
+  [1m[35mSQL (27.3ms)[0m  COMMIT
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`exchangetype`, `avg`, `sell`, `last`, `buy`, `high`, `created_at`, `vol`, `load_time`, `updated_at`, `low`, `vwap`) VALUES ('MtGox', 9.425352292, 8.19999, 8.19999, 8.1801, 10.78, '2011-08-06 16:09:29', 65559.0, 1312646967, '2011-08-06 16:09:29', 7.69981, 9.266501947)
+  [1m[36mSQL (25.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`exchangetype`, `avg`, `sell`, `last`, `buy`, `high`, `created_at`, `vol`, `load_time`, `updated_at`, `low`, `vwap`) VALUES ('thUSD', 8.2295, 8.259, 8.2, 8.2, 11.0, '2011-08-06 16:09:30', 25486.496076097, 1312646967, '2011-08-06 16:09:30', 8.2, 0.0)[0m
+  [1m[35mSQL (26.9ms)[0m  COMMIT
+  [1m[36mSQL (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `bitcoin_indices` (`date`, `created_at`, `index`, `load_time`, `updated_at`) VALUES ('2011-08-06 16:09:27', '2011-08-06 16:09:30', 9.09059564767159052545701959583258440171414766945482404530473703635428, 1312646967, '2011-08-06 16:09:30')[0m
+  [1m[35mSQL (22.2ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`avg`, `last`, `updated_at`, `load_time`, `buy`, `low`, `sell`, `high`, `exchangetype`, `vol`, `created_at`, `vwap`) VALUES (9.421681569, 8.2, '2011-08-06 16:13:41', 1312647220, 8.1941, 7.69981, 8.19999, 10.78, 'MtGox', 65641.0, '2011-08-06 16:13:41', 9.264891474)
+  [1m[36mSQL (24.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`avg`, `last`, `updated_at`, `load_time`, `buy`, `low`, `sell`, `high`, `exchangetype`, `vol`, `created_at`, `vwap`) VALUES (8.17553660415, 8.2, '2011-08-06 16:13:42', 1312647220, 8.1520732083, 8.2, 8.199, 11.0, 'thUSD', 25578.7166636602, '2011-08-06 16:13:42', 0.0)[0m
+  [1m[35mSQL (30.2ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`index`, `load_time`, `date`, `updated_at`, `created_at`) VALUES (9.072252847408244398129729663797067570112862190947665916688820300614772596, 1312647220, '2011-08-06 16:13:40', '2011-08-06 16:13:43', '2011-08-06 16:13:43')[0m
+  [1m[35mSQL (30.3ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:44:04 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (46.0ms)[0m  [1mSELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 72ms (Views: 4.7ms | ActiveRecord: 46.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:47:45 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.5ms)[0m  SELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 17ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:51:58 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:52:38 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 14ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:53:08 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:53:46 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 18ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 21:56:06 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:00:28 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date
+ERROR: compiling _app_views_ticker_index_html_erb__728008940__617543648_0 RAISED compile error
+/home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:17: syntax error, unexpected kEND
+		   end 
+		      ^
+/home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:31: syntax error, unexpected kENSURE, expecting kEND
+/home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:33: syntax error, unexpected $end, expecting kEND
+Function body:           def _app_views_ticker_index_html_erb__728008940__617543648_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "ticker/index";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<html>
+  <head>
+    <script type=\'text/javascript\' src=\'https://www.google.com/jsapi\'></script>
+    <script type=\'text/javascript\'>
+      google.load(\'visualization\', \'1\', {\'packages\':[\'annotatedtimeline\']});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn(\'date\', \'Date\');
+        data.addColumn(\'number\', \'Sold Pencils\');
+');		 i = 0 
+@output_buffer.safe_concat('        data.addRows([
+');@output_buffer.append_if_string= 		   @bitcoinIndices.each do |bitcoin| 
+@output_buffer.safe_concat('		  	'); if (i>0) ;@output_buffer.safe_concat(' ,'); end ;@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		  	[new Date(');@output_buffer.append= ( bitcoin.date.year());@output_buffer.safe_concat(', ');@output_buffer.append= ( bitcoin.date.day());@output_buffer.safe_concat(' ,');@output_buffer.append= ( bitcoin.date.month());@output_buffer.safe_concat('), ');@output_buffer.append= ( bitcoin.index);@output_buffer.safe_concat(']
+');			 i++ 
+		   end 
+@output_buffer.safe_concat('        ]);
+
+        var chart = new google.visualization.AnnotatedTimeLine(document.getElementById(\'chart_div\'));
+        chart.draw(data, {displayAnnotations: true});
+      }
+    </script>
+  </head>
+
+  <body>
+    // Note how you must specify the size of the container element explicitly!
+    <div id=\'chart_div\' style=\'width: 90%; height: 300px;\'></div>
+  </body>
+</html>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:33:in `compile'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/template.rb:134:in `render'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:59:in `_render_template'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:17:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:150:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:436:in `_run__125724023__process_action__199225275__callbacks'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `send'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `send'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:119:in `process'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:41:in `process'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal.rb:138:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal.rb:178:in `action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:32:in `call'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:12:in `cache'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:31:in `call'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/rack/logger.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `synchronize'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/static.rb:30:in `call'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:168:in `call'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:77:in `send'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:77:in `method_missing'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/rack/log_tailer.rb:14:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/handler/webrick.rb:13:in `run'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/server.rb:217:in `start'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands/server.rb:65:in `start'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:30
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27:in `tap'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered ticker/index.html.erb within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (compile error
+/home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:17: syntax error, unexpected kEND
+		   end 
+		      ^
+/home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:31: syntax error, unexpected kENSURE, expecting kEND
+/home/anand/workspace/ruby/bitcoin/app/views/ticker/index.html.erb:33: syntax error, unexpected $end, expecting kEND):
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.day()%> ,<%= bitcoin.date.month()%>), <%= bitcoin.index%>]
+    16: 			<% i++ %>
+    17: 		  <% end %>
+    18:         ]);
+    19: 
+    20:         var chart = new google.visualization.AnnotatedTimeLine(document.getElementById('chart_div'));
+  app/views/ticker/index.html.erb:33:in `compile'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (64.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (70.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:00:50 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:01:47 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.1ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`buy`, `created_at`, `avg`, `vwap`, `updated_at`, `low`, `exchangetype`, `sell`, `last`, `vol`, `load_time`, `high`) VALUES (8.1502, '2011-08-06 16:32:16', 9.408507, 9.255632616, '2011-08-06 16:32:16', 7.69981, 'MtGox', 8.22, 8.22, 65994.0, 1312648334, 10.72009)
+  [1m[36mSQL (30.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`buy`, `created_at`, `avg`, `vwap`, `updated_at`, `low`, `exchangetype`, `sell`, `last`, `vol`, `load_time`, `high`) VALUES (8.14, '2011-08-06 16:32:17', 8.1994999999, 0.0, '2011-08-06 16:32:17', 8.13, 'thUSD', 8.2589999998, 8.239, 26353.2186607096, 1312648334, 11.0)[0m
+  [1m[35mSQL (28.4ms)[0m  COMMIT
+  [1m[36mSQL (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`date`, `created_at`, `load_time`, `updated_at`, `index`) VALUES ('2011-08-06 16:32:14', '2011-08-06 16:32:17', 1312648334, '2011-08-06 16:32:17', 9.063491456510549440692696592762596392177856865842185536245996400466792802)[0m
+  [1m[35mSQL (29.5ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:02:20 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.4ms)[0m  [1mSELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.4ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`avg`, `updated_at`, `high`, `last`, `low`, `vwap`, `sell`, `exchangetype`, `buy`, `created_at`, `vol`, `load_time`) VALUES (9.402500324, '2011-08-06 16:37:47', 10.72009, 8.15019, 7.69981, 9.250393106, 8.15019, 'MtGox', 8.15012, '2011-08-06 16:37:47', 66189.0, 1312648638)
+  [1m[36mSQL (29.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`avg`, `updated_at`, `high`, `last`, `low`, `vwap`, `sell`, `exchangetype`, `buy`, `created_at`, `vol`, `load_time`) VALUES (8.1994999999, '2011-08-06 16:37:49', 11.0, 8.239, 8.13, 0.0, 8.2589999998, 'thUSD', 8.14, '2011-08-06 16:37:49', 25824.8782362919, 1312648638)[0m
+  [1m[35mSQL (24.5ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`index`, `date`, `load_time`, `updated_at`, `created_at`) VALUES (9.064862812315934440507933605156207016552329717757560023332593402081120558, '2011-08-06 16:37:18', 1312648638, '2011-08-06 16:37:49', '2011-08-06 16:37:49')[0m
+  [1m[35mSQL (30.5ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:09:29 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.5ms)[0m  SELECT `bitcoin_indices`.* FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:13:00 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (40.8ms)[0m  [1mSELECT SUM(`bitcoin_indices`.`index`) AS sum_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (undefined method `date' for #<Array:0xb66c47a4>):
+    12:         data.addRows([
+    13: 		  <% @bitcoinIndices.each do |bitcoin| %>
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.index%>]
+    16: 			<% i = i+1 %>
+    17: 		  <% end %>
+    18:         ]);
+  app/views/ticker/index.html.erb:15:in `_app_views_ticker_index_html_erb__728008940__617185198_0'
+  app/views/ticker/index.html.erb:13:in `_app_views_ticker_index_html_erb__728008940__617185198_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:13:57 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT SUM(`bitcoin_indices`.`index`) AS sum_index, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 12ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:14:30 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT SUM(`bitcoin_indices`.`index`) AS sum_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 13ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:15:07 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT SUM(`bitcoin_indices`.`index`) AS sum_index, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 5.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:15:43 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (13.2ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 5.3ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:17:14 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 5.5ms | ActiveRecord: 0.1ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`load_time`, `high`, `low`, `sell`, `avg`, `vwap`, `buy`, `last`, `exchangetype`, `vol`, `created_at`, `updated_at`) VALUES (1312649254, 10.7074, 7.69981, 8.03123, 9.367422238, 9.225153248, 8.0001, 8.0, 'MtGox', 67478.0, '2011-08-06 16:47:35', '2011-08-06 16:47:35')
+  [1m[36mSQL (26.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`load_time`, `high`, `low`, `sell`, `avg`, `vwap`, `buy`, `last`, `exchangetype`, `vol`, `created_at`, `updated_at`) VALUES (1312649254, 11.0, 8.13, 8.2569541458, 8.1984770729, 0.0, 8.14, 8.14, 'thUSD', 25411.322719209, '2011-08-06 16:47:37', '2011-08-06 16:47:37')[0m
+  [1m[35mSQL (22.0ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO `bitcoin_indices` (`load_time`, `date`, `created_at`, `updated_at`, `index`) VALUES (1312649254, '2011-08-06 16:47:34', '2011-08-06 16:47:37', '2011-08-06 16:47:37', 9.047639059892356952473115785781737849520552028404010702151317962213705895)[0m
+  [1m[35mSQL (22.6ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`exchangetype`, `sell`, `created_at`, `avg`, `buy`, `low`, `vol`, `vwap`, `load_time`, `high`, `updated_at`, `last`) VALUES ('MtGox', 8.1, '2011-08-06 16:48:03', 9.365006399, 7.91, 7.69981, 67521.0, 9.224366871, 1312649282, 10.7074, '2011-08-06 16:48:03', 7.91)
+  [1m[36mSQL (47.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`exchangetype`, `sell`, `created_at`, `avg`, `buy`, `low`, `vol`, `vwap`, `load_time`, `high`, `updated_at`, `last`) VALUES ('thUSD', 8.2569541458, '2011-08-06 16:48:05', 8.19475469755, 8.1325552493, 8.13, 25411.322719209, 0.0, 1312649282, 11.0, '2011-08-06 16:48:05', 8.14)[0m
+  [1m[35mSQL (25.7ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`updated_at`, `index`, `load_time`, `date`, `created_at`) VALUES ('2011-08-06 16:48:05', 9.04501392729453774688488631114444553583966696338749571897108727633560357, 1312649282, '2011-08-06 16:48:02', '2011-08-06 16:48:05')[0m
+  [1m[35mSQL (32.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`exchangetype`, `low`, `avg`, `vwap`, `sell`, `created_at`, `updated_at`, `vol`, `last`, `high`, `buy`, `load_time`) VALUES ('MtGox', 7.69981, 9.357339511, 9.219915282, 7.995, '2011-08-06 16:50:36', '2011-08-06 16:50:36', 67740.0, 7.995, 10.7074, 7.91, 1312649435)
+  [1m[36mSQL (36.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`exchangetype`, `low`, `avg`, `vwap`, `sell`, `created_at`, `updated_at`, `vol`, `last`, `high`, `buy`, `load_time`) VALUES ('thUSD', 8.111, 8.11528482, 0.0, 8.11956964, '2011-08-06 16:50:38', '2011-08-06 16:50:38', 25410.3430778035, 8.111, 11.0, 8.111, 1312649435)[0m
+  [1m[35mSQL (28.8ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`load_time`, `date`, `updated_at`, `created_at`, `index`) VALUES (1312649435, '2011-08-06 16:50:35', '2011-08-06 16:50:38', '2011-08-06 16:50:38', 9.018521265388773750636586936586441858612337808068564764704488756732911966)[0m
+  [1m[35mSQL (22.8ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`avg`, `vol`, `vwap`, `exchangetype`, `load_time`, `sell`, `updated_at`, `created_at`, `buy`, `low`, `last`, `high`) VALUES (9.353387392, 67769.0, 9.218866277, 'MtGox', 1312649553, 8.00559, '2011-08-06 16:52:37', '2011-08-06 16:52:37', 7.94306, 7.69981, 8.04999, 10.70729)
+  [1m[36mSQL (27.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`avg`, `vol`, `vwap`, `exchangetype`, `load_time`, `sell`, `updated_at`, `created_at`, `buy`, `low`, `last`, `high`) VALUES (8.10978482, 25441.4296655731, 0.0, 'thUSD', 1312649553, 8.11956964, '2011-08-06 16:52:38', '2011-08-06 16:52:38', 8.1, 8.1, 8.1, 11.0)[0m
+  [1m[35mSQL (31.2ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`updated_at`, `load_time`, `created_at`, `date`, `index`) VALUES ('2011-08-06 16:52:38', 1312649553, '2011-08-06 16:52:38', '2011-08-06 16:52:33', 9.013950834514099305402895759605911912520415822320247317489159932222343999)[0m
+  [1m[35mSQL (31.8ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:23:00 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 15ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vwap`, `updated_at`, `load_time`, `last`, `low`, `sell`, `avg`, `high`, `vol`, `buy`, `created_at`, `exchangetype`) VALUES (9.218709166, '2011-08-06 16:53:45', 1312649623, 8.04791, 7.69981, 8.05, 9.352495406, 10.70729, 67778.0, 8.04791, '2011-08-06 16:53:45', 'MtGox')
+  [1m[36mSQL (21.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (18.1ms)[0m  BEGIN
+  [1m[36mAREL (1.5ms)[0m  [1mINSERT INTO `tickers` (`vwap`, `updated_at`, `load_time`, `last`, `low`, `sell`, `avg`, `high`, `vol`, `buy`, `created_at`, `exchangetype`) VALUES (0.0, '2011-08-06 16:53:46', 1312649623, 8.1, 8.1, 8.11956964, 8.10978482, 11.0, 25441.4296655731, 8.1, '2011-08-06 16:53:46', 'thUSD')[0m
+  [1m[35mSQL (40.7ms)[0m  COMMIT
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO `bitcoin_indices` (`updated_at`, `created_at`, `load_time`, `index`, `date`) VALUES ('2011-08-06 16:53:46', '2011-08-06 16:53:46', 1312649623, 9.013335060546198426016115378494041597037109106633344394973867600815475087, '2011-08-06 16:53:43')[0m
+  [1m[35mSQL (22.1ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at Sat Aug 06 22:24:19 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.5ms)[0m  SELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 69ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (7.4ms)[0m  INSERT INTO `tickers` (`vwap`, `load_time`, `low`, `last`, `updated_at`, `high`, `exchangetype`, `buy`, `sell`, `vol`, `avg`, `created_at`) VALUES (7.646600148, 1312707795, 5.742, 8.83911, '2011-08-07 09:03:20', 9.80001, 'MtGox', 8.83911, 8.85, 136747.0, 7.876557862, '2011-08-07 09:03:20')
+  [1m[36mSQL (23.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`vwap`, `load_time`, `low`, `last`, `updated_at`, `high`, `exchangetype`, `buy`, `sell`, `vol`, `avg`, `created_at`) VALUES (0.0, 1312707795, 6.2899000002, 8.9795266127, '2011-08-07 09:03:22', 9.8, 'thUSD', 8.8504795039, 8.9795266127, 34686.8857444221, 8.9150030583, '2011-08-07 09:03:22')[0m
+  [1m[35mSQL (27.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`created_at`, `load_time`, `date`, `index`, `updated_at`) VALUES ('2011-08-07 09:03:22', 1312707795, '2011-08-07 09:03:15', 8.086670522746675437676341130964622396388793090544627341737477223632711564, '2011-08-07 09:03:22')[0m
+  [1m[35mSQL (23.7ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sun Aug 07 14:33:42 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 42ms (Views: 20.5ms | ActiveRecord: 0.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sun Aug 07 20:03:53 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 57ms (Views: 16.7ms | ActiveRecord: 0.4ms)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+Migrating to CreateBitcoinIndices (20110806152718)
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `bitcoin_indices`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `bitcoin_indices`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`last`, `sell`, `exchangetype`, `high`, `updated_at`, `created_at`, `load_time`, `low`, `avg`, `buy`, `vwap`, `vol`) VALUES (7.939, 7.939, 'MtGox', 9.47, '2011-08-07 15:10:58', '2011-08-07 15:10:58', 1312729835, 5.742, 7.63738952, 7.90121, 7.285612171, 108382.0)
+  [1m[36mSQL (30.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`last`, `sell`, `exchangetype`, `high`, `updated_at`, `created_at`, `load_time`, `low`, `avg`, `buy`, `vwap`, `vol`) VALUES (8.15, 8.45856216, 'thUSD', 9.8, '2011-08-07 15:11:00', '2011-08-07 15:11:00', 1312729835, 6.2899000002, 8.30428108, 8.15, 0.0, 27715.4047016439)[0m
+  [1m[35mSQL (27.3ms)[0m  COMMIT
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`updated_at`, `load_time`, `date`, `index`, `created_at`) VALUES ('2011-08-07 15:11:00', 1312729835, '2011-08-07 15:10:35', 7.773197910454100846071582022012965882177567236050962676591406172905157444, '2011-08-07 15:11:00')[0m
+  [1m[35mSQL (30.1ms)[0m  COMMIT
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 04 20:25:08 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (14.2ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 112ms (Views: 18.7ms | ActiveRecord: 14.2ms)
