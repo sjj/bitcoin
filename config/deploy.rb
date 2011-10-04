@@ -31,6 +31,6 @@ role :db,  "localhost"
 namespace :deploy do
   desc "Update the crontab file"
   task :update_crontab, :roles => :db do
-    run "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/var/lib/gems/1.8/bin:/usr/bin:/sbin:/bin:/usr/games:/usr/bin && cd #{release_path} && bundle exec whenever --update-crontab #{application}"
+    run "bundle exec whenever --update-crontab #{application}"
   end
 end
