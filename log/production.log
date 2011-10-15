@@ -610,3 +610,25 @@ Started GET "/" for 127.0.0.1 at Tue Sep 20 21:44:49 +0530 2011
   Processing by TickerController#index as HTML
 Rendered ticker/index.html.erb within layouts/application (2.4ms)
 Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 19:49:27 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Oct 15 19:49:27 +0530 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Sat Oct 15 19:49:30 +0530 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
