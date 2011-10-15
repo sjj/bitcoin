@@ -10,14 +10,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110806152718) do
+ActiveRecord::Schema.define(:version => 20111014183337) do
 
   create_table "bitcoin_indices", :force => true do |t|
     t.integer  "load_time"
     t.date     "date"
-    t.decimal  "index",      :precision => 18, :scale => 9, :default => 0.0
+    t.decimal  "usd",        :precision => 18, :scale => 9, :default => 0.0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "eur"
   end
 
   create_table "tickers", :force => true do |t|
@@ -33,6 +34,7 @@ ActiveRecord::Schema.define(:version => 20110806152718) do
     t.decimal  "sell",         :precision => 18, :scale => 9, :default => 0.0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "currency"
   end
 
 end

@@ -1291,3 +1291,1084 @@ Started GET "/" for 127.0.0.1 at Tue Oct 04 20:25:08 +0530 2011
   [1m[36mSQL (14.2ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
 Rendered ticker/index.html.erb within layouts/application (3.3ms)
 Completed 200 OK in 112ms (Views: 18.7ms | ActiveRecord: 14.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:35:45 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (13.6ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 65ms (Views: 14.2ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:36:14 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:37:17 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 30ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:37:17 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 20ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:37:54 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    10:         data.addColumn('number', 'Sold Pencils');
+    11: 		<% i = 0 %>
+    12:         data.addRows([
+    13: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>]
+    16: 			<% i = i+1 %>
+  app/views/ticker/index.html.erb:13:in `_app_views_ticker_index_html_erb__418181524__614705798_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (54.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (70.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:38:22 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    10:         data.addColumn('number', 'Sold Pencils');
+    11: 		<% i = 0 %>
+    12:         data.addRows([
+    13: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>]
+    16: 			<% i = i+1 %>
+  app/views/ticker/index.html.erb:13:in `_app_views_ticker_index_html_erb__418181524__612570328_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:38:24 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    10:         data.addColumn('number', 'Sold Pencils');
+    11: 		<% i = 0 %>
+    12:         data.addRows([
+    13: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>]
+    16: 			<% i = i+1 %>
+  app/views/ticker/index.html.erb:13:in `_app_views_ticker_index_html_erb__418181524__613142788_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:38:49 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    10:         data.addColumn('number', 'Sold Pencils');
+    11: 		<% i = 0 %>
+    12:         data.addRows([
+    13: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>]
+    16: 			<% i = i+1 %>
+  app/views/ticker/index.html.erb:13:in `_app_views_ticker_index_html_erb__418181524__613769718_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:38:51 +0530 2011
+  Processing by TickerController#index as HTML
+Rendered ticker/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    10:         data.addColumn('number', 'Sold Pencils');
+    11: 		<% i = 0 %>
+    12:         data.addRows([
+    13: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    14: 		  	<% if (i>0) %> ,<% end %>
+    15: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>]
+    16: 			<% i = i+1 %>
+  app/views/ticker/index.html.erb:13:in `_app_views_ticker_index_html_erb__418181524__614448888_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (61.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (65.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 12 20:39:20 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`index`) AS average_index, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/ticker/test" for 127.0.0.1 at Wed Oct 12 20:40:23 +0530 2011
+
+ActionController::RoutingError (No route matches "/ticker/test"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/ticker/test" for 127.0.0.1 at Wed Oct 12 20:40:49 +0530 2011
+  Processing by TickerController#test as HTML
+Rendered ticker/test.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ticker/test" for 127.0.0.1 at Wed Oct 12 20:42:20 +0530 2011
+  Processing by TickerController#test as HTML
+Completed 500 Internal Server Error in 61400ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:11:in `test'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/ticker/test" for 127.0.0.1 at Wed Oct 12 21:42:03 +0530 2011
+  Processing by TickerController#test as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `http_fetch_body' for #<TickerController:0xb6c0eb74>):
+  app/controllers/ticker_controller.rb:14:in `test'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/ticker/test" for 127.0.0.1 at Wed Oct 12 21:42:38 +0530 2011
+  Processing by TickerController#test as HTML
+Completed 500 Internal Server Error in 60433ms
+
+Timeout::Error (execution expired):
+  app/controllers/ticker_controller.rb:33:in `http_fetch'
+  app/controllers/ticker_controller.rb:31:in `http_fetch'
+  app/controllers/ticker_controller.rb:39:in `http_fetch_body'
+  app/controllers/ticker_controller.rb:14:in `test'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+Migrating to CreateBitcoinIndices (20110806152718)
+Migrating to AddCurrencyToTickers (20111014183214)
+  [1m[35mSQL (278.2ms)[0m  ALTER TABLE `tickers` ADD `currency` varchar(255)
+  [1m[36mSQL (30.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20111014183214')[0m
+Migrating to AddCurrencyToBitcoinIndices (20111014183337)
+  [1m[35mSQL (175.5ms)[0m  ALTER TABLE `bitcoin_indices` ADD `currency` varchar(255)
+  [1m[36mSQL (24.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20111014183337')[0m
+  [1m[35mSQL (1.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mdescribe `bitcoin_indices`[0m
+  [1m[35mSQL (1.2ms)[0m  SHOW KEYS FROM `bitcoin_indices`
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20110804153855)
+Migrating to CreateBitcoinIndices (20110806152718)
+Migrating to AddCurrencyToTickers (20111014183214)
+Migrating to AddCurrencyToBitcoinIndices (20111014183337)
+  [1m[35mSQL (0.5ms)[0m  SHOW COLUMNS FROM `bitcoin_indices` LIKE 'index'
+  [1m[36mSQL (164.9ms)[0m  [1mALTER TABLE `bitcoin_indices` CHANGE `index` `usd` decimal(18,9) DEFAULT 0.0[0m
+  [1m[35mSQL (143.7ms)[0m  ALTER TABLE `bitcoin_indices` ADD `eur` varchar(255)
+  [1m[36mSQL (24.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20111014183337')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `bitcoin_indices`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `bitcoin_indices`
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `tickers`
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `last`, `updated_at`, `vol`, `avg`, `currency`, `sell`, `load_time`, `created_at`, `vwap`, `high`, `exchangetype`, `buy`) VALUES (3.86002, 3.90002, '2011-10-15 07:45:45', 31707.76087788, 4.01692, 'USD', 3.93121, 1318664743, '2011-10-15 07:45:45', 3.98499, 4.11455, 'MtGox', 3.9)
+  [1m[36mSQL (26.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`low`, `last`, `updated_at`, `vol`, `avg`, `currency`, `sell`, `load_time`, `created_at`, `vwap`, `high`, `exchangetype`, `buy`) VALUES (2.8714, 2.91844, '2011-10-15 07:45:46', 1767.32579334, 3.01335, 'EUR', 2.91844, 1318664743, '2011-10-15 07:45:46', 3.00716, 3.06172, 'MtGox', 2.8714)[0m
+  [1m[35mSQL (31.0ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (9.6ms)[0m  INSERT INTO `tickers` (`low`, `last`, `updated_at`, `vol`, `avg`, `currency`, `sell`, `load_time`, `created_at`, `vwap`, `high`, `exchangetype`, `buy`) VALUES (3.825, 3.89, '2011-10-15 07:45:47', 10617.0487940629, 3.9194999999, 'USD', 3.9489999998, 1318664743, '2011-10-15 07:45:47', 0.0, 4.02, 'thUSD', 3.89)
+  [1m[36mSQL (32.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`exchangetype`, `last`, `updated_at`, `avg`, `sell`, `low`, `high`, `vwap`, `created_at`, `currency`, `vol`, `load_time`, `buy`) VALUES ('MtGox', 3.93121, '2011-10-15 07:48:27', 4.01687, 3.93121, 3.86002, 4.11455, 3.98495, '2011-10-15 07:48:27', 'USD', 31729.06355395, 1318664906, 3.90002)
+  [1m[36mSQL (30.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`exchangetype`, `last`, `updated_at`, `avg`, `sell`, `low`, `high`, `vwap`, `created_at`, `currency`, `vol`, `load_time`, `buy`) VALUES ('MtGox', 2.91844, '2011-10-15 07:48:28', 3.01335, 2.91844, 2.8714, 3.06172, 3.00716, '2011-10-15 07:48:28', 'EUR', 1767.32579334, 1318664906, 2.8714)[0m
+  [1m[35mSQL (21.8ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`exchangetype`, `last`, `updated_at`, `avg`, `sell`, `low`, `high`, `vwap`, `created_at`, `currency`, `vol`, `load_time`, `buy`) VALUES ('thUSD', 3.96, '2011-10-15 07:48:29', 3.925, 3.96, 3.825, 4.02, 0.0, '2011-10-15 07:48:29', 'USD', 10972.4375832534, 1318664906, 3.89)
+  [1m[36mSQL (26.3ms)[0m  [1mCOMMIT[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`low`, `vol`, `load_time`, `high`, `last`, `created_at`, `avg`, `buy`, `updated_at`, `sell`, `currency`, `exchangetype`, `vwap`) VALUES (3.86002, 31728.96421128, 1318664968, 4.11455, 3.93121, '2011-10-15 07:49:29', 4.01686, 3.90002, '2011-10-15 07:49:29', 3.93121, 'USD', 'MtGox', 3.98495)
+  [1m[36mSQL (28.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`low`, `vol`, `load_time`, `high`, `last`, `created_at`, `avg`, `buy`, `updated_at`, `sell`, `currency`, `exchangetype`, `vwap`) VALUES (2.8714, 1767.32579334, 1318664968, 3.06172, 2.91844, '2011-10-15 07:49:30', 3.01335, 2.8714, '2011-10-15 07:49:30', 2.91844, 'EUR', 'MtGox', 3.00716)[0m
+  [1m[35mSQL (31.4ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`low`, `vol`, `load_time`, `high`, `last`, `created_at`, `avg`, `buy`, `updated_at`, `sell`, `currency`, `exchangetype`, `vwap`) VALUES (3.825, 10972.4375832534, 1318664968, 4.02, 3.96, '2011-10-15 07:49:32', 3.921995, 3.89, '2011-10-15 07:49:32', 3.95399, 'USD', 'thUSD', 0.0)
+  [1m[36mSQL (32.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`low`, `vol`, `load_time`, `high`, `last`, `created_at`, `avg`, `buy`, `updated_at`, `sell`, `currency`, `exchangetype`, `vwap`) VALUES (2.9, 341.594988308, 1318664968, 3.07499975, 2.9, '2011-10-15 07:49:33', 2.8728604677, 2.841, '2011-10-15 07:49:33', 2.9047209354, 'EUR', 'thUSD', 0.0)[0m
+  [1m[35mSQL (25.6ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`created_at`, `load_time`, `usd`, `eur`, `updated_at`, `date`) VALUES ('2011-10-15 07:49:33', 1318664968, 2.99059403848592498397535616601426490681574650403304848717624, NULL, '2011-10-15 07:49:33', '2011-10-15 07:49:28')[0m
+  [1m[35mSQL (31.7ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vwap`, `last`, `updated_at`, `exchangetype`, `low`, `currency`, `buy`, `sell`, `vol`, `avg`, `load_time`, `created_at`, `high`) VALUES (3.98495, 3.93121, '2011-10-15 07:49:58', 'MtGox', 3.86002, 'USD', 3.90002, 3.93121, 31728.96421128, 4.01686, 1318664997, '2011-10-15 07:49:58', 4.11455)
+  [1m[36mSQL (24.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`vwap`, `last`, `updated_at`, `exchangetype`, `low`, `currency`, `buy`, `sell`, `vol`, `avg`, `load_time`, `created_at`, `high`) VALUES (3.00716, 2.91844, '2011-10-15 07:49:59', 'MtGox', 2.8714, 'EUR', 2.8714, 2.91844, 1767.32579334, 3.01335, 1318664997, '2011-10-15 07:49:59', 3.06172)[0m
+  [1m[35mSQL (24.4ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`vwap`, `last`, `updated_at`, `exchangetype`, `low`, `currency`, `buy`, `sell`, `vol`, `avg`, `load_time`, `created_at`, `high`) VALUES (0.0, 3.96, '2011-10-15 07:50:01', 'thUSD', 3.825, 'USD', 3.89, 3.949, 10972.4375832534, 3.9195, 1318664997, '2011-10-15 07:50:01', 4.02)
+  [1m[36mSQL (27.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`vwap`, `last`, `updated_at`, `exchangetype`, `low`, `currency`, `buy`, `sell`, `vol`, `avg`, `load_time`, `created_at`, `high`) VALUES (0.0, 2.9, '2011-10-15 07:50:02', 'thUSD', 2.9, 'EUR', 2.841, 2.9047209354, 341.594988308, 2.8728604677, 1318664997, '2011-10-15 07:50:02', 3.07499975)[0m
+  [1m[35mSQL (27.5ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`load_time`, `eur`, `updated_at`, `created_at`, `date`, `usd`) VALUES (1318664997, NULL, '2011-10-15 07:50:02', '2011-10-15 07:50:02', '2011-10-15 07:49:57', 2.99059403848592498397535616601426490681574650403304848717624)[0m
+  [1m[35mSQL (24.7ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`vol`, `last`, `currency`, `avg`, `sell`, `updated_at`, `load_time`, `buy`, `vwap`, `low`, `exchangetype`, `high`, `created_at`) VALUES (31728.86484969, 3.93121, 'USD', 4.01685, 3.93121, '2011-10-15 07:50:53', 1318665052, 3.90002, 3.98495, 3.86002, 'MtGox', 4.11455, '2011-10-15 07:50:53')
+  [1m[36mSQL (41.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`vol`, `last`, `currency`, `avg`, `sell`, `updated_at`, `load_time`, `buy`, `vwap`, `low`, `exchangetype`, `high`, `created_at`) VALUES (1767.32579334, 2.91844, 'EUR', 3.01335, 2.91844, '2011-10-15 07:50:54', 1318665052, 2.8714, 3.00716, 2.8714, 'MtGox', 3.06172, '2011-10-15 07:50:54')[0m
+  [1m[35mSQL (24.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`vol`, `last`, `currency`, `avg`, `sell`, `updated_at`, `load_time`, `buy`, `vwap`, `low`, `exchangetype`, `high`, `created_at`) VALUES (10972.4375832534, 3.96, 'USD', 3.9217124999, 3.9489999998, '2011-10-15 07:50:55', 1318665052, 3.894425, 0.0, 3.825, 'thUSD', 4.02, '2011-10-15 07:50:55')
+  [1m[36mSQL (24.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`vol`, `last`, `currency`, `avg`, `sell`, `updated_at`, `load_time`, `buy`, `vwap`, `low`, `exchangetype`, `high`, `created_at`) VALUES (341.594988308, 2.9, 'EUR', 2.8728604677, 2.9047209354, '2011-10-15 07:50:57', 1318665052, 2.841, 0.0, 2.9, 'thUSD', 3.07499975, '2011-10-15 07:50:57')[0m
+  [1m[35mSQL (29.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`usd`, `updated_at`, `created_at`, `load_time`, `date`, `eur`) VALUES (3.992403666464546318928354859663850311885332884728048122608316965003511718, '2011-10-15 07:50:57', '2011-10-15 07:50:57', 1318665052, '2011-10-15 07:50:52', 2.99059403848592498397535616601426490681574650403304848717624)[0m
+  [1m[35mSQL (22.9ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`currency`, `vwap`, `updated_at`, `load_time`, `avg`, `sell`, `exchangetype`, `vol`, `low`, `last`, `created_at`, `high`, `buy`) VALUES ('USD', 3.98495, '2011-10-15 07:51:02', 1318665061, 4.01685, 3.93121, 'MtGox', 31728.79751569, 3.86002, 3.93121, '2011-10-15 07:51:02', 4.11455, 3.90002)
+  [1m[36mSQL (38.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`currency`, `vwap`, `updated_at`, `load_time`, `avg`, `sell`, `exchangetype`, `vol`, `low`, `last`, `created_at`, `high`, `buy`) VALUES ('EUR', 3.00716, '2011-10-15 07:51:03', 1318665061, 3.01335, 2.91844, 'MtGox', 1767.32579334, 2.8714, 2.91844, '2011-10-15 07:51:03', 3.06172, 2.8714)[0m
+  [1m[35mSQL (25.9ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`currency`, `vwap`, `updated_at`, `load_time`, `avg`, `sell`, `exchangetype`, `vol`, `low`, `last`, `created_at`, `high`, `buy`) VALUES ('USD', 0.0, '2011-10-15 07:51:05', 1318665061, 3.9217124999, 3.9489999998, 'thUSD', 10972.4375832534, 3.825, 3.96, '2011-10-15 07:51:05', 4.02, 3.894425)
+  [1m[36mSQL (27.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`currency`, `vwap`, `updated_at`, `load_time`, `avg`, `sell`, `exchangetype`, `vol`, `low`, `last`, `created_at`, `high`, `buy`) VALUES ('EUR', 0.0, '2011-10-15 07:51:06', 1318665061, 2.8728604677, 2.9047209354, 'thUSD', 341.594988308, 2.9, 2.9, '2011-10-15 07:51:06', 3.07499975, 2.841)[0m
+  [1m[35mSQL (25.0ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`usd`, `updated_at`, `eur`, `load_time`, `date`, `created_at`) VALUES (3.992403627916026154063884049910863114288134910799262650525780714866150088, '2011-10-15 07:51:06', 2.99059403848592498397535616601426490681574650403304848717624, 1318665061, '2011-10-15 07:51:01', '2011-10-15 07:51:06')[0m
+  [1m[35mSQL (23.8ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:21:48 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT AVG(index) AS average_index, date AS date FROM `bitcoin_indices` WHERE (currency='USD') GROUP BY date[0m
+Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index) AS average_index, date AS date FROM `bitcoin_indices` WHERE (currency='US' at line 1: SELECT AVG(index) AS average_index, date AS date FROM `bitcoin_indices` WHERE (currency='USD') GROUP BY date
+Completed 500 Internal Server Error in 22ms
+
+ActiveRecord::StatementInvalid (Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index) AS average_index, date AS date FROM `bitcoin_indices` WHERE (currency='US' at line 1: SELECT AVG(index) AS average_index, date AS date FROM `bitcoin_indices` WHERE (currency='USD') GROUP BY date):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`last`, `currency`, `low`, `created_at`, `sell`, `vol`, `avg`, `vwap`, `exchangetype`, `load_time`, `updated_at`, `buy`, `high`) VALUES (3.93121, 'USD', 3.86002, '2011-10-15 07:55:28', 3.93121, 31727.72882666, 4.01677, 3.98495, 'MtGox', 1318665327, '2011-10-15 07:55:28', 3.90002, 4.11455)
+  [1m[36mSQL (27.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`last`, `currency`, `low`, `created_at`, `sell`, `vol`, `avg`, `vwap`, `exchangetype`, `load_time`, `updated_at`, `buy`, `high`) VALUES (2.91844, 'EUR', 2.8714, '2011-10-15 07:55:29', 2.91844, 1767.32579334, 3.01335, 3.00716, 'MtGox', 1318665327, '2011-10-15 07:55:29', 2.8714, 3.06172)[0m
+  [1m[35mSQL (26.5ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `tickers` (`last`, `currency`, `low`, `created_at`, `sell`, `vol`, `avg`, `vwap`, `exchangetype`, `load_time`, `updated_at`, `buy`, `high`) VALUES (3.96, 'USD', 3.825, '2011-10-15 07:55:31', 3.9489999998, 10972.4375832534, 3.9237590599, 0.0, 'thUSD', 1318665327, '2011-10-15 07:55:31', 3.89851812, 4.02)
+  [1m[36mSQL (39.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`last`, `currency`, `low`, `created_at`, `sell`, `vol`, `avg`, `vwap`, `exchangetype`, `load_time`, `updated_at`, `buy`, `high`) VALUES (2.9, 'EUR', 2.9, '2011-10-15 07:55:32', 2.9047209354, 341.594988308, 2.8728604677, 0.0, 'thUSD', 1318665327, '2011-10-15 07:55:32', 2.841, 3.07499975)[0m
+  [1m[35mSQL (29.7ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`eur`, `created_at`, `load_time`, `usd`, `date`, `updated_at`) VALUES (2.99059403848592498397535616601426490681574650403304848717624, '2011-10-15 07:55:32', 1318665327, 3.992869467036970722272275605039001042792338323589821731067648983476419627, '2011-10-15 07:55:27', '2011-10-15 07:55:32')[0m
+  [1m[35mSQL (31.4ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:26:01 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` WHERE (currency='USD') GROUP BY date[0m
+Mysql::Error: Unknown column 'currency' in 'where clause': SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` WHERE (currency='USD') GROUP BY date
+Completed 500 Internal Server Error in 22ms
+
+ActiveRecord::StatementInvalid (Mysql::Error: Unknown column 'currency' in 'where clause': SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` WHERE (currency='USD') GROUP BY date):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:26:30 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (1.3ms)[0m  SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 38ms (Views: 28.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:27:36 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 72ms (Views: 63.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:27:44 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:27:49 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:28:19 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:44:30 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:47:40 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.6ms)[0m  SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:48:18 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `date' for #<Array:0xb6bb3f08>):
+    31: 
+    32:   <body>
+    33:   	<% @bitcoinIndices.each do |bitcoin| %>
+    34: 	 <%= bitcoin.date%><br/>
+    35: 	<% end %>
+    36:     <h1>Bitcoin Chart</h1>
+    37:     <div id='chart_div' style='width: 90%; height: 300px;'></div>
+  app/views/ticker/index.html.erb:34:in `_app_views_ticker_index_html_erb__418181524__614606568_0'
+  app/views/ticker/index.html.erb:33:in `_app_views_ticker_index_html_erb__418181524__614606568_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (65.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (70.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:48:31 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.1ms)[0m  SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date
+ERROR: compiling _app_views_ticker_index_html_erb__418181524__612979718_0 RAISED compile error
+/home/anand/workspace/ruby/bitcoinGit/bitcoin/app/views/ticker/index.html.erb:34: syntax error, unexpected '>'
+...put_buffer.append= ( bitcoin->date);@output_buffer.safe_conc...
+                              ^
+Function body:           def _app_views_ticker_index_html_erb__418181524__612979718_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "ticker/index";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<html>
+  <head>
+    <script type=\'text/javascript\' src=\'https://www.google.com/jsapi\'></script>
+    <script type=\'text/javascript\'>
+      google.load(\'visualization\', \'1\', {\'packages\':[\'annotatedtimeline\']});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn(\'date\', \'Date\');
+        data.addColumn(\'number\', \'USD\');
+        data.addColumn(\'string\', \'title1\');
+        data.addColumn(\'string\', \'text1\');
+        data.addColumn(\'number\', \'EUR\');
+        data.addColumn(\'string\', \'title2\');
+        data.addColumn(\'string\', \'text2\');
+
+');		 i = 0 
+@output_buffer.safe_concat('        data.addRows([
+');@output_buffer.safe_concat('		  ');@output_buffer.append_if_string=  @bitcoinIndices.each do |bitcoin|  puts bitcoin;@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		  	'); if (i>0) ;@output_buffer.safe_concat(' ,'); end ;@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		  	[new Date(');@output_buffer.append= ( bitcoin[0].year());@output_buffer.safe_concat(', ');@output_buffer.append= ( bitcoin[0].month());@output_buffer.safe_concat(' ,');@output_buffer.append= ( bitcoin[0].day());@output_buffer.safe_concat('), ');@output_buffer.append= ( bitcoin[1]);@output_buffer.safe_concat(', undefined, undefined, ');@output_buffer.append= ( bitcoin[2]);@output_buffer.safe_concat(', undefined, undefined]
+');			 i = i+1 
+		   end 
+@output_buffer.safe_concat('        ]);
+
+        var chart = new google.visualization.AnnotatedTimeLine(document.getElementById(\'chart_div\'));
+        chart.draw(data, {displayAnnotations: true});
+      }
+    </script>
+  </head>
+
+  <body>
+');@output_buffer.append_if_string=   	 @bitcoinIndices.each do |bitcoin| 
+@output_buffer.safe_concat('	 ');@output_buffer.append= ( bitcoin->date);@output_buffer.safe_concat('<br/>
+');	 end 
+@output_buffer.safe_concat('    <h1>Bitcoin Chart</h1>
+    <div id=\'chart_div\' style=\'width: 90%; height: 300px;\'></div>
+  </body>
+</html>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/anand/workspace/ruby/bitcoinGit/bitcoin/app/views/ticker/index.html.erb:42:in `compile'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/template.rb:134:in `render'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:59:in `_render_template'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:17:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:150:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:436:in `_run__125724023__process_action__199225275__callbacks'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `send'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `send'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:119:in `process'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:41:in `process'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal.rb:138:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_controller/metal.rb:178:in `action'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/var/lib/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:32:in `call'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:12:in `cache'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/query_cache.rb:31:in `call'
+/var/lib/gems/1.8/gems/activerecord-3.0.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/rack/logger.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/var/lib/gems/1.8/gems/activesupport-3.0.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `synchronize'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/static.rb:30:in `call'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:168:in `call'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:77:in `send'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/application.rb:77:in `method_missing'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/rack/log_tailer.rb:14:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/handler/webrick.rb:13:in `run'
+/var/lib/gems/1.8/gems/rack-1.2.3/lib/rack/server.rb:217:in `start'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands/server.rb:65:in `start'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:30
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27:in `tap'
+/var/lib/gems/1.8/gems/railties-3.0.9/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered ticker/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (compile error
+/home/anand/workspace/ruby/bitcoinGit/bitcoin/app/views/ticker/index.html.erb:34: syntax error, unexpected '>'
+...put_buffer.append= ( bitcoin->date);@output_buffer.safe_conc...
+                              ^):
+    31: 
+    32:   <body>
+    33:   	<% @bitcoinIndices.each do |bitcoin| %>
+    34: 	 <%= bitcoin->date%><br/>
+    35: 	<% end %>
+    36:     <h1>Bitcoin Chart</h1>
+    37:     <div id='chart_div' style='width: 90%; height: 300px;'></div>
+  app/views/ticker/index.html.erb:42:in `compile'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:50:02 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (Symbol as array index):
+    31: 
+    32:   <body>
+    33:   	<% @bitcoinIndices.each do |bitcoin| %>
+    34: 	 <%= bitcoin[:date]%><br/>
+    35: 	<% end %>
+    36:     <h1>Bitcoin Chart</h1>
+    37:     <div id='chart_div' style='width: 90%; height: 300px;'></div>
+  app/views/ticker/index.html.erb:34:in `[]'
+  app/views/ticker/index.html.erb:34:in `_app_views_ticker_index_html_erb__418181524__613711668_0'
+  app/views/ticker/index.html.erb:33:in `_app_views_ticker_index_html_erb__418181524__613711668_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:57:53 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.5ms)[0m  SELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date
+Rendered ticker/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (Symbol as array index):
+    31: 
+    32:   <body>
+    33:   	<% @bitcoinIndices.each do |bitcoin| %>
+    34: 	 <%= bitcoin[:date]%><br/>
+    35: 	<% end %>
+    36:     <h1>Bitcoin Chart</h1>
+    37:     <div id='chart_div' style='width: 90%; height: 300px;'></div>
+  app/views/ticker/index.html.erb:34:in `[]'
+  app/views/ticker/index.html.erb:34:in `_app_views_ticker_index_html_erb__418181524__614536928_0'
+  app/views/ticker/index.html.erb:33:in `_app_views_ticker_index_html_erb__418181524__614536928_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:58:15 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 13:59:03 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT AVG(`bitcoin_indices`.`usd`) AS average_usd, date AS date FROM `bitcoin_indices` GROUP BY date[0m
+Rendered ticker/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:02:30 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mBitcoinIndex Load (0.4ms)[0m  [1mSELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1[0m
+Completed 404 Not Found in 11ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:03:42 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 66ms
+
+ArgumentError (Unknown key(s): where):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:04:19 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (Unknown key(s): condition):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:04:21 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+ArgumentError (Unknown key(s): condition):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:04:31 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:04:33 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1[0m
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:07 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (1.1ms)[0m  SELECT date,avg(eur),avg(usd) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1
+Completed 404 Not Found in 10ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:07 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT date,avg(eur),avg(usd) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1[0m
+Completed 404 Not Found in 9ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:08 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(eur),avg(usd) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:08 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.2ms)[0m  [1mSELECT date,avg(eur),avg(usd) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1[0m
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:08 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.4ms)[0m  SELECT date,avg(eur),avg(usd) FROM `bitcoin_indices` WHERE `bitcoin_indices`.`id` = 'usd' GROUP BY date LIMIT 1
+Completed 404 Not Found in 9ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex with ID=usd):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:40 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex without an ID):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:05:44 +0530 2011
+  Processing by TickerController#index as HTML
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find BitcoinIndex without an ID):
+  app/controllers/ticker_controller.rb:3:in `index'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:09:42 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.5ms)[0m  [1mSELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `year' for nil:NilClass):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>, undefined, undefined, <%= bitcoin[2]%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__612613368_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__612613368_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:10:52 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date
+Rendered ticker/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `year' for nil:NilClass):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin[0].year()%>, <%= bitcoin[0].month()%> ,<%= bitcoin[0].day()%>), <%= bitcoin[1]%>, undefined, undefined, <%= bitcoin[2]%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__613548418_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__613548418_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:11:29 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (missing attribute: usd):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.usd%>, undefined, undefined, <%= bitcoin.eur%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__614412778_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__614412778_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:11:33 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date
+Rendered ticker/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (missing attribute: usd):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.usd%>, undefined, undefined, <%= bitcoin.eur%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__612637068_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__612637068_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:11:33 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.5ms)[0m  [1mSELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (missing attribute: usd):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.usd%>, undefined, undefined, <%= bitcoin.eur%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__613467448_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__613467448_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:11:55 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date
+Rendered ticker/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (missing attribute: usd):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.usd%>, undefined, undefined, <%= bitcoin.eur%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__614315238_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__614315238_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:12:07 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.1ms)[0m  [1mSELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 84ms
+
+ActionView::Template::Error (missing attribute: usd):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.usd%>, undefined, undefined, <%= bitcoin.eur%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__612404598_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__612404598_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:12:07 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd),avg(eur) FROM `bitcoin_indices` GROUP BY date ORDER BY date
+Rendered ticker/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (missing attribute: usd):
+    18:         data.addRows([
+    19: 		  <% @bitcoinIndices.each do |bitcoin| %><% puts bitcoin%>
+    20: 		  	<% if (i>0) %> ,<% end %>
+    21: 		  	[new Date(<%= bitcoin.date.year()%>, <%= bitcoin.date.month()%> ,<%= bitcoin.date.day()%>), <%= bitcoin.usd%>, undefined, undefined, <%= bitcoin.eur%>, undefined, undefined]
+    22: 			<% i = i+1 %>
+    23: 		  <% end %>
+    24:         ]);
+  app/views/ticker/index.html.erb:21:in `_app_views_ticker_index_html_erb__418181524__613177808_0'
+  app/views/ticker/index.html.erb:19:in `_app_views_ticker_index_html_erb__418181524__613177808_0'
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:12:57 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.5ms)[0m  [1mSELECT date,avg(usd) as usd,avg(eur) as eur FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 15ms (Views: 10.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:12:58 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd) as usd,avg(eur) as eur FROM `bitcoin_indices` GROUP BY date ORDER BY date
+Rendered ticker/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `tickers` (`exchangetype`, `vol`, `avg`, `load_time`, `sell`, `buy`, `last`, `currency`, `updated_at`, `high`, `low`, `vwap`, `created_at`) VALUES ('MtGox', 31497.43144495, 4.01534, 1318668219, 3.91199, 3.90001, 3.90001, 'USD', '2011-10-15 08:43:41', 4.11455, 3.86002, 3.98391, '2011-10-15 08:43:41')
+  [1m[36mSQL (30.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`exchangetype`, `vol`, `avg`, `load_time`, `sell`, `buy`, `last`, `currency`, `updated_at`, `high`, `low`, `vwap`, `created_at`) VALUES ('MtGox', 1768.43609311, 3.01275, 1318668219, 2.90417, 2.8714, 2.91754, 'EUR', '2011-10-15 08:43:42', 3.06172, 2.8714, 3.00711, '2011-10-15 08:43:42')[0m
+  [1m[35mSQL (29.0ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `tickers` (`exchangetype`, `vol`, `avg`, `load_time`, `sell`, `buy`, `last`, `currency`, `updated_at`, `high`, `low`, `vwap`, `created_at`) VALUES ('thUSD', 10949.2527341304, 3.919, 1318668219, 3.948, 3.89, 3.94, 'USD', '2011-10-15 08:43:44', 4.02, 3.825, 0.0, '2011-10-15 08:43:44')
+  [1m[36mSQL (38.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `tickers` (`exchangetype`, `vol`, `avg`, `load_time`, `sell`, `buy`, `last`, `currency`, `updated_at`, `high`, `low`, `vwap`, `created_at`) VALUES ('thUSD', 360.3062995604, 2.8688236538, 1318668219, 2.8966473076, 2.841, 2.9046586804, 'EUR', '2011-10-15 08:43:45', 3.07499975, 2.9, 0.0, '2011-10-15 08:43:45')[0m
+  [1m[35mSQL (25.3ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  describe `bitcoin_indices`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `bitcoin_indices` (`load_time`, `updated_at`, `created_at`, `eur`, `usd`, `date`) VALUES (1318668219, '2011-10-15 08:43:45', '2011-10-15 08:43:45', 2.988389340209916930198847512778189004765919131094622281808801, 3.99048880069416588528254634913878047052362294841315267286823286553286, '2011-10-15 08:43:39')[0m
+  [1m[35mSQL (31.5ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:14:17 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.6ms)[0m  [1mSELECT date,avg(usd) as usd,avg(eur) as eur FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 32ms (Views: 11.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:14:18 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[35mBitcoinIndex Load (0.1ms)[0m  SELECT date,avg(usd) as usd,avg(eur) as eur FROM `bitcoin_indices` GROUP BY date ORDER BY date
+Rendered ticker/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 17ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Oct 15 14:14:50 +0530 2011
+  Processing by TickerController#index as HTML
+  [1m[36mBitcoinIndex Load (0.5ms)[0m  [1mSELECT date,avg(usd) as usd,avg(eur) as eur FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
+Rendered ticker/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 17ms (Views: 11.4ms | ActiveRecord: 0.5ms)
