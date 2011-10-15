@@ -1,4 +1,4 @@
-class CreateBitcoinIndices < ActiveRecord::Migration
+class CreateBitcoinIndice < ActiveRecord::Migration
   def self.up
     drop_table :bitcoin_indices
     create_table :bitcoin_indices do |t|

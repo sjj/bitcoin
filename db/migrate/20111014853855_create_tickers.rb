@@ -1,4 +1,4 @@
-class CreateTickers < ActiveRecord::Migration
+class CreateTicker < ActiveRecord::Migration
   def self.up
     drop_table :tickers
     create_table :tickers do |t|
