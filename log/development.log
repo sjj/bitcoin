@@ -2372,3 +2372,21 @@ Started GET "/" for 127.0.0.1 at Sat Oct 15 14:14:50 +0530 2011
   [1m[36mBitcoinIndex Load (0.5ms)[0m  [1mSELECT date,avg(usd) as usd,avg(eur) as eur FROM `bitcoin_indices` GROUP BY date ORDER BY date[0m
 Rendered ticker/index.html.erb within layouts/application (7.2ms)
 Completed 200 OK in 17ms (Views: 11.4ms | ActiveRecord: 0.5ms)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateTickers (20111014853855)
+  [1m[35mSQL (43.6ms)[0m  DROP TABLE `tickers`
+  [1m[36mSQL (87.4ms)[0m  [1mCREATE TABLE `tickers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `exchangetype` varchar(255), `high` decimal(18,9) DEFAULT 0, `low` decimal(18,9) DEFAULT 0, `avg` decimal(18,9) DEFAULT 0, `vwap` decimal(18,9) DEFAULT 0, `vol` decimal(18,9) DEFAULT 0, `last` decimal(18,9) DEFAULT 0, `buy` decimal(18,9) DEFAULT 0, `sell` decimal(18,9) DEFAULT 0, `currency` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35mSQL (24.1ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20111014853855')
+Migrating to CreateBitcoinIndices (20111014853859)
+  [1m[36mSQL (22.8ms)[0m  [1mDROP TABLE `bitcoin_indices`[0m
+  [1m[35mSQL (57.8ms)[0m  CREATE TABLE `bitcoin_indices` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `load_time` int(11), `date` date, `usd` decimal(18,9) DEFAULT 0, `eur` decimal(18,9) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (24.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20111014853859')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `bitcoin_indices`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `bitcoin_indices`
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `tickers`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `tickers`
